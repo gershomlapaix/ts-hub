@@ -9,6 +9,6 @@ console.log(doubled);
 
 /// storing mixed types values
 let scores: (string | number)[];
-scores = ["Programming", 6, 'SWD', 6];
+scores = ["Programming", 6, 6, 'SWD'];
 
 export {};
