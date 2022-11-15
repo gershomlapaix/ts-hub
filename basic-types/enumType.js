@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Month;
 (function (Month) {
     Month[Month["Jan"] = 0] = "Jan";
@@ -27,4 +29,14 @@ function isItSummer(month) {
     }
     return isSummber;
 }
+console.log(isItSummer(6));
+console.log(Month);
 console.log(Month.Apr);
+// example two: explicitly specify the number
+var ApprovalStatus;
+(function (ApprovalStatus) {
+    ApprovalStatus[ApprovalStatus["draft"] = 1] = "draft";
+    ApprovalStatus[ApprovalStatus["submitted"] = 2] = "submitted";
+    ApprovalStatus[ApprovalStatus["approved"] = 3] = "approved";
+    ApprovalStatus[ApprovalStatus["rejected"] = 4] = "rejected";
+})(ApprovalStatus || (ApprovalStatus = {}));
