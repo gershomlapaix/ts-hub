@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "/imgs/book.jpg"
+    "imgUrl": "/imgs/books.jpeg"
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "id": 4,
     "name": "Car",
     "price": 14000,
-    "imgUrl": "/imgs/car.jpg"
+    "imgUrl": "/imgs/lincoln.jpg"
   }
 ]
