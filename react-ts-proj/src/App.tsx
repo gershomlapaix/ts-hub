@@ -8,15 +8,14 @@ import { Navbar } from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar>
-        <Container>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/store" element={<Store />} />
-            <Route path="/store" element={<About />} />
-          </Routes>
-        </Container>
-      </Navbar>
+      <Navbar />
+      <Container className="mb-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/store" element={<About />} />
+        </Routes>
+      </Container>
     </>
   );
 }
