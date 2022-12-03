@@ -9,7 +9,7 @@ type StoreItemProps = {
   imgUrl: string;
 };
 export default function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
-  const quantity: number = 2;
+  const quantity: number = 0;
   return (
     <Card className="h-100">
       <Card.Img
